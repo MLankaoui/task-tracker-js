@@ -27,8 +27,10 @@ This basic task tracker allows users to add and remove tasks dynamically. It ser
 ## File Structure
 
 - `index.html`: The main HTML file containing the structure of the application.
-- `styles.css` (or Tailwind CSS): The stylesheet for styling the application.
+- `output.css` (or Tailwind CSS): The stylesheet for styling the application.
 - `script.js`: The JavaScript file for adding dynamic functionality.
+- `input.css` : containing tailwind directives
+- `tailwind.confi.js` : containing configuration
 
 ## License
 
