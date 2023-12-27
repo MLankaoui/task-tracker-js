@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Simple Todo App using JavaScript</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-gray-100">
+
+    <div class="bg-gray-800 text-white text-center py-4">
+        <h1 class="text-2xl font-bold">Task Tracker</h1>
+    </div>
+
+    <div class="container mx-auto mt-8">
+        <form id="taskForm" class="flex justify-center">
+            <input type="text" id="taskInput" class="py-2 px-4 border border-gray-300 rounded-l" placeholder="Add a new task...">
+            <button type="button" onclick="addTask()" class="bg-blue-500 text-white py-2 px-4 rounded-r">Add Task</button>
+        </form>
+
+        <ul id="taskList" class="mt-4">
+            <!-- Task items will be dynamically added here -->
+        </ul>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
+</html>
